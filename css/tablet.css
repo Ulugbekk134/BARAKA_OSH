@@ -1,0 +1,43 @@
+/* Kichik ekranlar uchun (masalan, mobil qurilmalar) */
+@media only screen and (max-width: 768px) {
+  .video1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .menu-list1 {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .video,
+  .videoo {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .video2,
+  .video3,
+  .video4,
+  .video5 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .v {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+  }
+}
